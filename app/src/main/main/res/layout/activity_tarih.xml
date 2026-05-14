@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_tarih"
+    android:orientation="vertical"
+    android:background="#B8D6FB"
+    >
+    <TextView
+        android:id="@+id/baslik3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#5167DF"
+        android:backgroundTint="#5167DF"
+        android:padding="19dp"
+        android:text="TARİH"
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/soru3"
+        android:layout_width="match_parent"
+        android:layout_height="283dp"
+        android:paddingTop="90dp"
+        android:text="SORU:Hangi adı taşıyan sadece bir Osmanlı Padişahı vardır?"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnA3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=" ibrahim" />
+
+    <Button
+        android:id="@+id/btnB3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="bayezid" />
+
+    <Button
+        android:id="@+id/btnC3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="osman" />
+
+    <Button
+        android:id="@+id/btnD3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Abdülhamid" />
+
+    <Button
+        android:id="@+id/cevap3"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#B48EF8"
+        android:text="Cevabı görüntüle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/geri3"
+            android:layout_width="51dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/anas"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/bitti3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="263dp"
+            android:layout_marginTop="70dp"
+            android:text="BİTTİ"
+            android:backgroundTint="#B48EF8"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

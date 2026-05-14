@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_sanat"
+    android:orientation="vertical"
+    android:background="#B8D6FB"
+    >
+    <TextView
+        android:id="@+id/baslik8"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#5167DF"
+        android:backgroundTint="#5167DF"
+        android:padding="19dp"
+        android:text="SANAT"
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/soru8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:text="SORU: Aşağıda gördüğünüz, Nazım Hikmet'in de hakkında bir şiiri bulunan 'Uzun Yürüyüş' isimli tablo, Türk çağdaş sanatının en önemli isimlerinden birinin eseri. Peki bu eser kime ait?"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/resim8"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/uzunyrys"
+
+
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnA8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Müfide Kadri" />
+
+    <Button
+        android:id="@+id/btnB8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Abidin Dino" />
+
+    <Button
+        android:id="@+id/btnC8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Neşet Günal" />
+
+    <Button
+        android:id="@+id/btnD8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Halil Paşa" />
+
+    <Button
+        android:id="@+id/cevap8"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#B48EF8"
+        android:text="Cevabı görüntüle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/geri8"
+            android:layout_width="51dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/anas"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/bitti8"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="263dp"
+            android:layout_marginTop="70dp"
+            android:text="BİTTİ"
+            android:backgroundTint="#B48EF8"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+</LinearLayout>

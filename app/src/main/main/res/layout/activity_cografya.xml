@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_cografya"
+    android:orientation="vertical"
+    android:background="#B8D6FB"
+    >
+    <TextView
+        android:id="@+id/baslik7"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#5167DF"
+        android:backgroundTint="#5167DF"
+        android:padding="19dp"
+        android:text="COĞRAFYA"
+        android:textAlignment="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/soru7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:text="SORU: Dünya'nın en yüksek rakımlı yerleşim birimi hangisidir?"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/resim7"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/peru"
+
+
+            tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnA7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="La Rinconada - Peru" />
+
+    <Button
+        android:id="@+id/btnB7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="El Alto - Bolivya" />
+
+    <Button
+        android:id="@+id/btnC7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Shigatse - Çin" />
+
+    <Button
+        android:id="@+id/btnD7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Potosi - Bolivya" />
+
+    <Button
+        android:id="@+id/cevap7"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#B48EF8"
+        android:text="Cevabı görüntüle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="184dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/geri7"
+            android:layout_width="51dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/anas"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/bitti7"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="263dp"
+            android:layout_marginTop="70dp"
+            android:text="BİTTİ"
+            android:backgroundTint="#B48EF8"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+</LinearLayout>
